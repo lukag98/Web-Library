@@ -1,0 +1,17 @@
+/* navbar.css */
+.circular-logo {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover; /* Ensures the image fits within the circular frame */
+}
+
+/* Other styles */
+.MuiButton-root {
+  margin-left: 8px; /* Space between buttons */
+}
+
+.MuiAppBar-root {
+  background-color: white; /* White background for the navbar */
+  box-shadow: none; /* Remove the default shadow */
+}

@@ -1,0 +1,25 @@
+.clients-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.clients-table th,
+.clients-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.clients-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f2f2f2;
+  color: black;
+}
+
+.clients-table tr:hover {
+  background-color: #ddd;
+}
+.hidetext {
+  -webkit-text-security: disc;
+}
